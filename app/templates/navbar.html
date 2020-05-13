@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<div class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"> PITCH</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+         <li><a href="/">HOME</a></li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            CATEGORIES
+          </a>
+          <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/pitches/interview">INTERVIEW</a><br>
+            <a class="dropdown-item" href="/pitches/promotion">PROMOTION</a><br>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/pitches/motivation">MOTIVATION</a><br>
+            <a class="dropdown-item" href="/pitches/product">PRODUCT</a><br>
+          </div>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        {% if current_user.is_authenticated %}
+        <li><a href="{{url_for('main.profile',uname=current_user.username)}}"><button class="btn-xs btn-warning">PROFILE</button></a></li>
+        <li><a href="{{url_for('auth.logout')}}"><button class="btn-xs btn-warning">SIGN OUT</button></a></li>
+        {% else %}
+        <li><a href="{{url_for('auth.login')}}"><button class="btn-xs btn-danger">SIGN IN</button></a></li>
+        {% endif %}
+      </ul>
+    </div> 
+  </div>
+ </div>   
