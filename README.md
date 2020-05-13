@@ -32,6 +32,9 @@ $ python3.6 -m pip install Flask-Script
 
 $ python3.6 -m pip install Flask-Mail
 
+# KNOWN BUGS
+none so far
+
 # Testing the Application
 To run the tests for the class files:
 $ python3.6 manage.py test
