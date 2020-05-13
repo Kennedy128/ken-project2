@@ -4,12 +4,12 @@ A flask-based application that allows users to post elevator pitches, get and gi
 
 By https://github.com/Kennedy128/ken-project2
 Setup/Installation Requirements
-Prerequisites
-python3.8
-pip
-Virtual environment(virtualenv)
-Flask-Mail
-PostgreSQL
+$Prerequisites
+$python3.8
+$pip
+$Virtual environment(virtualenv)
+$Flask-Mail
+$PostgreSQL
 Cloning and running
 Clone the application using git clone(this copies the app onto your device). In your terminal:
 $ git clone https://github.com/Kennedy128/ken-project2
