@@ -42,7 +42,7 @@ $ python3.6 manage.py test
 # Technologies Used
 * Python 3.6
 * Flask
-* BDD
+# BDD
 Behavior	Input Example	Output
 * User Sort Preference	Category	Sorted Pitches by Categories
 * Send user to email to confirm sign up	Click 'sign up'	Send email
