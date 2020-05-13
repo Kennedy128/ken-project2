@@ -44,13 +44,13 @@ $ python3.6 manage.py test
 * Flask
 * BDD
 Behavior	Input Example	Output
-User Sort Preference	Category	Sorted Pitches by Categories
-Send user to email to confirm sign up	Click 'sign up'	Send email
-Show pitches from other users	select a specific category	List pitches
-Enable user to give reviews and feedback for a pitch	Click 'new review'	written user review
-Enable vote for a pitch	Click 'like' or 'dislike'	user vote
-Enable user write a pitch	Click 'new pitch'	written user pitch
-Live Site *Can be accessed here https://pitch-kenne.herokuapp.com/
+* User Sort Preference	Category	Sorted Pitches by Categories
+* Send user to email to confirm sign up	Click 'sign up'	Send email
+* Show pitches from other users	select a specific category	List pitches
+* Enable user to give reviews and feedback for a pitch	Click 'new review'	written user review
+* Enable vote for a pitch	Click 'like' or 'dislike'	user vote
+* Enable user write a pitch	Click 'new pitch'	written user pitch
+* Live Site *Can be accessed here https://pitch-kenne.herokuapp.com/
 
 # Author's Contact
 If you need any clarifications or have feedback on this project , contact the author at kennedymbithi12@gmail.com
